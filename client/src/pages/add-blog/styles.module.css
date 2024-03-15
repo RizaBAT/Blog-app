@@ -1,0 +1,38 @@
+.wrapper {
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  
+}
+.wrapper button {
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid pink;
+  border-radius: 8px;
+  background-color: chocolate;
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  background-color: blueviolet;
+  border-radius: 8px;
+}
+.input {
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px;
+  margin-top: 35px;
+}
+
+.description {
+  margin: 10px;
+  height: 50px;
+  border-radius: 8px;
+}

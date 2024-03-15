@@ -1,0 +1,30 @@
+
+.wrapper {
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+.wrapper h1{
+    display: grid;
+    color: rgb(38, 60, 100);
+    border-radius: 8px;
+    padding: 10px;
+    margin: ;
+
+}
+.blogList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.blogList div {
+  padding: 10px;
+  border: 3px solid rgb(168, 144, 168);
+}
+
+.border{
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    margin: 5%;
+}
